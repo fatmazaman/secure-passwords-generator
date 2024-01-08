@@ -1,10 +1,10 @@
 {
   "name": "secure-passwords-generator",
-  "version": "1.0.0",
-  "description": "This versatile utility allows you to create random passwords of varying lengths, ensuring robust protection for your applications, websites, and user accounts.",
+  "version": "1.1.0",
+  "description": "This versatile utility allows you to create random list of password of varying lengths, ensuring robust protection for your applications, websites, and user accounts.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test "
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "secure",
-    "password"
+    "passwords", "password generator"
   ],
   "author": "Fatma Zaman",
   "license": "ISC",

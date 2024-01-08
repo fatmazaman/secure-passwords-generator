@@ -1,8 +1,13 @@
 const generatePasswords = require('./index')
 
-const passwords = generatePasswords(12, 3);
-console.log(passwords);
-const passwords1 = generatePasswords(20, 6);
-console.log(passwords1);
-const passwords2 = generatePasswords(12, 1);
-console.log(passwords2)
+// Generate a single password with the default length (12 characters)
+console.log(generatePasswords())
+
+// Generate a single password with a specified length (e.g., 15 characters)
+console.log(generatePasswords(15))
+
+// Generate a list of passwords with a specified length (e.g., 12 characters) and count (e.g., 3 passwords)
+console.log(generatePasswords(12, 3)) 
+
+// Generate a list of passwords with a specified length (e.g., 20 characters) and count (e.g., 6 passwords)
+console.log(generatePasswords(20, 6))
