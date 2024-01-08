@@ -1,0 +1,23 @@
+{
+  "name": "secure-passwords-generator",
+  "version": "1.0.0",
+  "description": "This versatile utility allows you to create random passwords of varying lengths, ensuring robust protection for your applications, websites, and user accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatmazaman/secure-passwords-generator.git"
+  },
+  "keywords": [
+    "secure",
+    "password"
+  ],
+  "author": "Fatma Zaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatmazaman/secure-passwords-generator/issues"
+  },
+  "homepage": "https://github.com/fatmazaman/secure-passwords-generator#readme"
+}
